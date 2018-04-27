@@ -29,7 +29,6 @@ app.get("/", (req, res) => {
     res.redirect("/blogs")
 })
 
-
 app.get("/blogs", (req, res) => {
     // Retrive the blogs from the DB
     Blog.find({}, (err, blogs) => {

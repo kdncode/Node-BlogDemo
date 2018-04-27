@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 app.get("/blogs", (req, res) => {
     // Retrive the blogs from the DB
     Blog.find({}, (err, blogs) => {
-        if(err) { console.log("error")}
+        if (err) { console.log("error")}
         else    { res.render("index", { blogs: blogs }) }
     })
 })

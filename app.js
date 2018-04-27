@@ -23,7 +23,6 @@ var blogSchema = new mongoose.Schema({
 // Compile to model
 var Blog = mongoose.model("Blog", blogSchema)
 
-
 // RESTFUL Routes
 app.get("/", (req, res) => {
     res.redirect("/blogs")

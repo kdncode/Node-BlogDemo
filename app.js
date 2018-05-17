@@ -35,19 +35,19 @@ app.get("/blogs", (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.send('about')
+    res.send('about');
 });
 
 app.get('/contact', (req, res) => {
-    res.send('contact')
+    res.send('contact');
 });
 
 app.get('/pricing', (req, res) => {
-    res.send('pricing')
+    res.send('pricing');
 });
 
 app.get('/careers', (req, res) => {
-    res.send('careers')
+    res.send('careers');
 });
 
 

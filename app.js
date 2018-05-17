@@ -34,6 +34,10 @@ app.get("/blogs", (req, res) => {
     })
 })
 
+app.get('/about', (req, res) => {
+    res.send('hello')
+})
+
 app.listen(process.env.PORT || 3000, () => {
     console.log("blog is running");
 })

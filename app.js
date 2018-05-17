@@ -38,8 +38,8 @@ app.get('/about', (req, res) => {
     res.send('about')
 })
 
-app.get('/about', (req, res) => {
-    res.send('hello')
+app.get('/contact', (req, res) => {
+    res.send('contact')
 })
 
 app.listen(process.env.PORT || 3000, () => {

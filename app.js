@@ -42,6 +42,10 @@ app.get('/contact', (req, res) => {
     res.send('contact')
 });
 
+app.get('/pricing', (req, res) => {
+    res.send('pricing')
+});
+
 app.listen(process.env.PORT || 3000, () => {
     console.log("blog is running");
 })

@@ -40,7 +40,7 @@ app.get('/about', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.send('contact')
-})
+});
 
 app.listen(process.env.PORT || 3000, () => {
     console.log("blog is running");

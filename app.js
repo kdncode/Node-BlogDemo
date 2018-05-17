@@ -36,7 +36,7 @@ app.get("/blogs", (req, res) => {
 
 app.get('/about', (req, res) => {
     res.send('about')
-})
+});
 
 app.get('/contact', (req, res) => {
     res.send('contact')

@@ -50,7 +50,6 @@ app.get('/careers', (req, res) => {
     res.send('careers');
 });
 
-
 app.listen(process.env.PORT || 3000, () => {
     console.log("blog is running");
 })
